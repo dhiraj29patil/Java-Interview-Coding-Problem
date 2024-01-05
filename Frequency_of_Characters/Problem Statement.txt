@@ -1,0 +1,18 @@
+Q). Check frequency of Characters in a String.
+
+I/P : "peacock";
+
+O/P : 	p : 1
+	e : 1
+	a : 1
+	c : 2
+	o : 1
+	k : 1
+
+*). Time Complexity : O(n)
+
+The time complexity is O(N), where N is the length of the input string str. The for loop iterates through each character in the string, and the HashMap operations (containsKey, put, get) perform constant-time operations regardless of the size of the HashMap.
+
+*). Space Complexity : O(n)
+
+The space complexity is also O(N), where N is the length of the input string str. This complexity arises from the HashMap map which stores the frequency of characters. In the worst-case scenario, where all characters are unique, the HashMap would have N entries, one for each character in the string.

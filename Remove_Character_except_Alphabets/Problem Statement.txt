@@ -1,0 +1,13 @@
+Q). Remove Characters from String excepts Alphabets.
+
+I/P : "D0h@i&r3aj-";
+
+O/P : "Dhiraj";
+
+*). Time Complexity : O(n)
+
+The time complexity is O(N), where N is the length of the input string str. The for loop iterates through each character in the string, and the isAlphabet function performs constant-time operations for each character.
+
+*). Space Complexity : O(n)
+
+The space complexity is also O(N). The ans string is built by concatenating valid alphabet characters from the input string str. As the loop progresses through the input string, a new string ans is created and grows in size linearly with the size of the input string.

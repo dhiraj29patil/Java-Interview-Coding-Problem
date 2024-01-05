@@ -1,0 +1,13 @@
+Q). Capitalize the first and last character of each word of a string.
+
+I/P : "dhiraj patil from shirpur";
+
+O/P : "DhiraJ PatiL FroM ShirpuR";
+
+*). Time Complexity : O(n*m)
+
+The time complexity is O(N*M), where N is the number of words (after splitting by space) and M is the average length of each word. This complexity arises from iterating through the words, splitting them, and performing string operations (charAt, substring, toUpperCase, concatenation) on each word.
+
+*). Space Complexity : O(n*m)
+
+The space complexity is also O(N*M), where N is the number of words and M is the average length of each word. The ans string is built by performing string operations and concatenations for each word, which creates a new string of length proportional to the input string's size. Additionally, arrays and strings are used to store intermediate values, contributing to space complexity.
