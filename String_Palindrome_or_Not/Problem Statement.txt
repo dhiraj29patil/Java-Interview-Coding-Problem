@@ -1,0 +1,13 @@
+Q).Check if the given string is Palindrome or not .
+
+I/P : "abba";		I/P : "dhiraj";
+
+O/P : Palindrome;	O/P : Not Palindrome;
+
+*). Time Complexity : O(n)
+
+The time complexity is O(N), where N is the length of the input string str. The for loop iterates through half of the string length to create the reversed string ans, performing constant-time operations for each character.
+
+*). Space Complexity : O(n)
+
+The space complexity is also O(N). This is due to the string concatenation inside the loop (ans += str.charAt(i)), which creates a new string ans and increases in size linearly with the input string str.

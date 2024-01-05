@@ -1,0 +1,18 @@
+Q).Remove the vowels from a String.
+
+I/P : "dhiraj";
+
+O/P : "dhrj";
+
+*). Time Complexity : O(n)
+
+In this code, the time complexity is O(N), where N is the length of the input string str. The for loop iterates through each character in the string, and the isVowel function, which performs constant-time operations, is called for each character.
+
+*). Space Complexity : O(n)
+
+The space complexity for this code is O(N). It's because the ans string is built by concatenating non-vowel characters. String concatenation in Java involves creating new strings. As the loop progresses through the input string, a new string ans is created and grows in size linearly with the input string str.
+
+
+
+
+
