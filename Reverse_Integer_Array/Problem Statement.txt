@@ -1,0 +1,14 @@
+Q).Reverse an Integer Array
+
+I/P : [1,2,3,4,5,6,7,8];
+
+O/P : [8,7,6,5,4,3,2,1];
+
+
+*).Time Complexity : O(n)
+
+The time complexity of this code is O(N), where N is the number of elements in the array. This is because the code iterates through half of the array (arr.length/2) to perform the swap operation, which takes constant time per iteration.
+
+*).Space Complexity : O(1)
+
+The space complexity is O(1) because the algorithm performs the reversal in place without using any additional data structures. The space used remains constant, regardless of the size of the input array.

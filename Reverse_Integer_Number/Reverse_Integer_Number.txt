@@ -1,0 +1,13 @@
+Q).Reverse the Integer Number.
+
+I/P : 1234;
+
+O/P : 4321;
+
+*).Time Complexity : O(log(n))
+
+The time complexity for this code is O(log10(N)), where N is the value of the input integer num. This is because the number of iterations in the while loop is proportional to the number of digits in the input number. For each iteration, the code performs constant-time operations.
+
+*).Space Complexity : O(1)
+
+The space complexity for this code is O(1). It uses a constant amount of extra space regardless of the input number size. There are only a few integer variables (num, rem, rev) used, and their memory consumption remains constant.

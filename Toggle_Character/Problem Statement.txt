@@ -1,0 +1,13 @@
+Q).Toggle each character in a string.
+
+I/P : "dhIraj";
+
+O/P : "DHiRAJ";
+
+*). Time Complexity : O(n)
+
+In this code, the time complexity is O(N) where N is the length of the input string str. The for loop iterates through each character in the string and performs constant-time operations within the loop.
+
+*). Space Complexity : O(n^2)
+
+The space complexity for this code is O(N^2) due to the nature of string concatenation in Java. Each time you use += to concatenate characters to the ans string, it creates a new string with the updated value. This results in creating a new string of increasing length for each character added, leading to a quadratic increase in space complexity as the loop progresses through the string.

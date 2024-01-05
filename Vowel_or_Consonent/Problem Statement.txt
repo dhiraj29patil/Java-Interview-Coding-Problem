@@ -1,0 +1,13 @@
+Q).Check whether a character is a vowel or consonant.
+
+I/P : 'A';
+
+O/P : Vowel
+
+*).Time Complexity : O(1)
+
+The time complexity of the isVowel function is O(1). It performs a constant number of character comparisons regardless of the input. It has a fixed number of comparisons (5 in this case) to check if the character is a vowel or not.
+
+*).Space Complexity : O(1)
+
+The space complexity is also O(1). The function only uses a constant amount of space for the character ch and performs operations on it without any additional space dependence on the input size.

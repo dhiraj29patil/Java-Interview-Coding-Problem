@@ -1,0 +1,13 @@
+Q).Sorting an array using Bubble Sort algorithm using more improved bubble sort.
+
+I/P : [4,1,2,6,3,8,5,7];
+
+O/P : [1,2,3,4,5,6,7,8];
+
+*).Time Complexity : O(n)
+
+The time complexity of Bubble Sort is O(n) in the worst case, where 'n' is the number of elements in the array. This arises from the nested loops. In the worst scenario, the algorithm has to traverse the entire array for each element.
+
+*).Space Complexity : O(1)
+
+The space complexity is O(1) since Bubble Sort is an in-place sorting algorithm, meaning it doesn't require any extra space proportional to the input array size. The only extra space used is for a few variables (isSort, i, j), which are constant regardless of the input array's size.

@@ -1,0 +1,13 @@
+Q).Reverse the given String.
+
+I/P : "Dhiraj";
+
+O/P : "jarihD";
+
+*).Time Complexity : O(n)
+
+The time complexity for this code is O(N), where N is the length of the input string str. This is because the code iterates through each character of the string in the for loop, performing constant-time operations within the loop for each character.
+
+*).Space Complexity : O(n^2)
+
+However, in terms of space complexity, this code utilizes O(N^2) space due to the nature of string concatenation in Java. Strings are immutable, so each time you use += to concatenate a character to the ans string, it creates a new string with the updated value. This results in creating a new string of increasing length for each character added, making it quadratic in terms of space complexity.
